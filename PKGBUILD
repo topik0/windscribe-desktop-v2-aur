@@ -9,7 +9,7 @@ license=('GPL-2.0')
 depends=('bash' 'iptables')
 install=${pkgname}.install
 source=("https://github.com/topik0/windscribe-desktop-v2-aur/releases/download/v2.3.11_beta/windscribe_2.3.11_beta_amd64.deb")
-sha512sums=('76f94461421c5c9572d05428f054773f7dd71fa08f445f1940bc0930d0a8a755e37143c3ed9ac5d9f54da7a3a3cb103b3233a60b30ba145f605955a4a81eafd5')
+sha512sums=('88e22c070dc5e35ea5fbea0d988dd2b501942193434efe462357363976e404ef3348aad2a2cd8609d8b42dd87a72166d75b2876369d3f1e320eeac4e2974faab')
 
 package() {
 	tar xf data.tar.xz -C "${pkgdir}"
